@@ -1,0 +1,27 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 1200px;
+	background-color: #fdde7e;
+	margin: 0 auto;
+	padding: 50px 30px;
+}
+	
+.plan-wrapper {
+	background-color: #ffffff;
+}
+
+.col-3 {
+	width: calc(33.3333333333% - 20px);
+	height: 440px;
+	border-top: none;
+	border-left: 1px solid #d3b969;
+	border-right: 1px solid #d3b969;
+	border-bottom: 2px solid #d3b969;
+	border-radius: 2px;
+}
+
+.col-3:nth-child(2) {
+	height: 500px;
+}
